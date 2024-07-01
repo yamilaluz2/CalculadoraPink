@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(236, 127, 145);
+    font-family: 'monospace';
+    text-align: center;
+    font-size: 20px;
+}
+
+.calculadora {
+    display: grid;
+    width: 50%;
+    margin: auto;
+    background-color: rgb(236, 127, 145);
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(8,75px);
+}
+.tecla, .operador {
+    background-color: rgb(178, 237, 186);
+    font-family: 'monospace';
+    border-style: solid;
+    border-width: 1px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 50px;
+}
+.tecla:hover {
+    background-color: rgb(236, 209, 213)
+}
+.operador:hover {
+    background-color: rgb(236, 209, 213)
+}
+
+#pantalla {
+    background-color: rgb(253, 208, 224);
+    font-family: 'monospace';
+    color: rgb(16, 15, 15);
+    grid-column: 1/5;
+    grid-row: 1/4;
+    border-style: solid;
+    border-width: 10px;
+    font-size: 80px;
+}
+#igual {
+    background-color: rgb(178, 237, 186);
+    font-family: 'monospace';
+    color: rgb(17, 16, 16);
+    grid-column: 3/4;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 50px;
+}
+#borrar {
+    background-color: rgb(130, 198, 139);
+    font-family: 'monospace';
+    color: rgb(17, 16, 16);
+    grid-column: 1/5;
+    grid-row: 4/5;
+    border-style: solid;
+    border-width: 1px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 40px;
+}
+#igual:hover {
+    background-color: rgb(236, 209, 213)
+}
+#borrar:hover {
+    background-color: rgb(236, 209, 213)
+}
